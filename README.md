@@ -10,7 +10,7 @@ The gui project is a demo IDE for demonstrating the idea of pipe architecture. I
 
 ==================================
 snapshots
-https://github.com/tedzhang/CMinus/blob/master/o_genasm2.jpg?raw=true</p>
+<img src="https://github.com/tedzhang/CMinus/blob/master/o_genasm2.jpg?raw=true"></p>
 
-https://github.com/tedzhang/CMinus/blob/master/o_genasm3.jpg?raw=true</p>
-https://github.com/tedzhang/CMinus/blob/master/o_run.jpg?raw=true
+<img src="https://github.com/tedzhang/CMinus/blob/master/o_genasm3.jpg?raw=true"></p>
+<img src="https://github.com/tedzhang/CMinus/blob/master/o_run.jpg?raw=true">
