@@ -1,0 +1,138 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=gb2312">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: GUI, Configuration: Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "j:\MYProject\CMinus\CMinus(1.0)\CMinus\Gui\Debug\RSP000003.rsp" with contents
+[
+/Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "_AFXDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:wchar_t /Yu"stdafx.h" /Fp"Debug/GUI.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TP
+".\Tokenizer.cpp"
+".\SourceFileView.cpp"
+".\sizecbar.cpp"
+".\ScintillaWnd.cpp"
+".\Proxy.cpp"
+".\OutputBar.cpp"
+".\MainFrm.cpp"
+".\GUIView.cpp"
+".\GUIDoc.cpp"
+".\GUI.cpp"
+".\ChildFrm.cpp"
+]
+Creating command line "cl.exe @"j:\MYProject\CMinus\CMinus(1.0)\CMinus\Gui\Debug\RSP000003.rsp" /nologo"
+Creating temporary file "j:\MYProject\CMinus\CMinus(1.0)\CMinus\Gui\Debug\RSP000004.rsp" with contents
+[
+/Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "_AFXDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:wchar_t /Yc"stdafx.h" /Fp"Debug/GUI.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TP
+".\stdafx.cpp"
+]
+Creating command line "cl.exe @"j:\MYProject\CMinus\CMinus(1.0)\CMinus\Gui\Debug\RSP000004.rsp" /nologo"
+Creating command line "rc.exe /d "_DEBUG" /d "_AFXDLL" /l 0x409 /I "Debug" /fo"Debug/GUI.res" ".\GUI.rc""
+Creating temporary file "j:\MYProject\CMinus\CMinus(1.0)\CMinus\Gui\Debug\RSP000005.rsp" with contents
+[
+/OUT:"../BIN/GUI.exe" /INCREMENTAL /NOLOGO /DEBUG /PDB:"Debug/GUI.pdb" /SUBSYSTEM:WINDOWS /MACHINE:X86 scintilla\bin\scilexer.lib ".\scintilla\bin\SciLexer.lib"
+".\Debug\ChildFrm.obj"
+".\Debug\GUI.obj"
+".\Debug\GUIDoc.obj"
+".\Debug\GUIView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\OutputBar.obj"
+".\Debug\Proxy.obj"
+".\Debug\ScintillaWnd.obj"
+".\Debug\sizecbar.obj"
+".\Debug\SourceFileView.obj"
+".\Debug\stdafx.obj"
+".\Debug\Tokenizer.obj"
+".\Debug\GUI.res"
+]
+Creating command line "link.exe @"j:\MYProject\CMinus\CMinus(1.0)\CMinus\Gui\Debug\RSP000005.rsp""
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+stdafx.cpp
+Compiling...
+Tokenizer.cpp
+SourceFileView.cpp
+sizecbar.cpp
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\sizecbar.cpp(220) : warning C4244: 'argument' : conversion from 'INT_PTR' to 'int', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\sizecbar.cpp(458) : warning C4312: 'type cast' : conversion from 'DWORD' to 'HBRUSH' of greater size
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\sizecbar.cpp(763) : warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+ScintillaWnd.cpp
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(221) : warning C4244: 'initializing' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(228) : warning C4311: 'type cast' : pointer truncation from 'TCHAR *' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(315) : warning C4244: 'initializing' : conversion from 'LRESULT' to 'int', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(319) : warning C4311: 'type cast' : pointer truncation from 'TCHAR *' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(377) : warning C4311: 'type cast' : pointer truncation from 'const char *' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(378) : warning C4244: 'return' : conversion from 'LRESULT' to 'int', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(493) : warning C4244: 'initializing' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(494) : warning C4244: 'return' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(503) : warning C4244: 'initializing' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(504) : warning C4244: 'return' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(512) : warning C4244: 'return' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(520) : warning C4244: 'initializing' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(521) : warning C4244: 'return' : conversion from 'LRESULT' to 'int', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(530) : warning C4244: 'initializing' : conversion from 'LRESULT' to 'int', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(539) : warning C4311: 'type cast' : pointer truncation from 'LPCSTR' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(595) : warning C4244: 'return' : conversion from 'LRESULT' to 'BOOL', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(706) : warning C4244: 'initializing' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(707) : warning C4244: 'initializing' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(726) : warning C4244: 'initializing' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(766) : warning C4244: 'initializing' : conversion from 'LRESULT' to 'int', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(778) : warning C4244: 'initializing' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(788) : warning C4244: 'initializing' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(823) : warning C4244: '=' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(824) : warning C4311: 'type cast' : pointer truncation from 'TextToFind *__w64 ' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(824) : warning C4244: '=' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(830) : warning C4311: 'type cast' : pointer truncation from 'TextToFind *__w64 ' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(853) : warning C4311: 'type cast' : pointer truncation from 'TextToFind *__w64 ' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(853) : warning C4244: '=' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(859) : warning C4311: 'type cast' : pointer truncation from 'TextToFind *__w64 ' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(875) : warning C4311: 'type cast' : pointer truncation from 'LPCSTR' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(877) : warning C4311: 'type cast' : pointer truncation from 'LPCSTR' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(894) : warning C4244: 'return' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(902) : warning C4244: 'return' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(917) : warning C4311: 'type cast' : pointer truncation from 'TCHAR *' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(946) : warning C4311: 'type cast' : pointer truncation from 'LPCSTR' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(946) : warning C4244: 'initializing' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(951) : warning C4311: 'type cast' : pointer truncation from 'LPCSTR' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(951) : warning C4244: '=' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(953) : warning C4311: 'type cast' : pointer truncation from 'LPCSTR' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(953) : warning C4244: '=' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(960) : warning C4311: 'type cast' : pointer truncation from 'LPCSTR' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(960) : warning C4244: '=' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(969) : warning C4244: 'initializing' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(974) : warning C4311: 'type cast' : pointer truncation from 'LPCSTR' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(974) : warning C4244: 'initializing' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(979) : warning C4311: 'type cast' : pointer truncation from 'LPCSTR' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(979) : warning C4244: '=' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(981) : warning C4311: 'type cast' : pointer truncation from 'LPCSTR' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(981) : warning C4244: '=' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(983) : warning C4244: '=' : conversion from 'LRESULT' to 'long', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(988) : warning C4311: 'type cast' : pointer truncation from 'LPCSTR' to 'long'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\ScintillaWnd.cpp(988) : warning C4244: '=' : conversion from 'LRESULT' to 'long', possible loss of data
+Proxy.cpp
+OutputBar.cpp
+MainFrm.cpp
+GUIView.cpp
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\GUIView.cpp(226) : warning C4311: 'type cast' : pointer truncation from 'const char *' to 'long'
+GUIDoc.cpp
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\GUI\GUIDoc.cpp(36) : warning C4018: '<' : signed/unsigned mismatch
+GUI.cpp
+ChildFrm.cpp
+Generating Code...
+j:\myproject\cminus\cminus(1.0)\cminus\gui\proxy.cpp(99) : warning C4715: 'CProxy::Prepare' : not all control paths return a value
+Compiling resources...
+Linking...
+LINK : LNK6004: ../BIN/GUI.exe not found or not built by the last incremental link; performing full link
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://j:\MYProject\CMinus\CMinus(1.0)\CMinus\Gui\Debug\BuildLog.htm"
+GUI - 0 error(s), 58 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

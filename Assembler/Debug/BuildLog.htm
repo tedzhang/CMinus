@@ -1,0 +1,78 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=gb2312">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: Assembler, Configuration: Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\Debug\RSP000008.rsp" with contents
+[
+/Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Gm /EHsc /RTC1 /MLd /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TP
+".\DsImp.cpp"
+".\Scan.cpp"
+".\Parse.cpp"
+".\Main.cpp"
+".\ByteCodeGen.cpp"
+".\BinGen.cpp"
+]
+Creating command line "cl.exe @"j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\Debug\RSP000008.rsp" /nologo"
+Creating temporary file "j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\Debug\RSP000009.rsp" with contents
+[
+/OUT:"../BIN/Assembler.exe" /INCREMENTAL /NOLOGO /DEBUG /PDB:"Debug/Assembler.pdb" /SUBSYSTEM:CONSOLE /MACHINE:X86  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib
+".\Debug\BinGen.obj"
+".\Debug\ByteCodeGen.obj"
+".\Debug\Main.obj"
+".\Debug\Parse.obj"
+".\Debug\Scan.obj"
+".\Debug\DsImp.obj"
+]
+Creating command line "link.exe @"j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\Debug\RSP000009.rsp""
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+DsImp.cpp
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\DsDecl.h(47) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\DsDecl.h(110) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\DsImp.cpp(18) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\DsImp.cpp(25) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\DsImp.cpp(32) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\DsImp.cpp(70) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\utility(41) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+        j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\DsImp.cpp(34) : see reference to function template instantiation 'std::pair<_Ty1,_Ty2>::pair<int,std::vector<_Ty>::size_type>(const std::pair<_Ty1,std::vector<_Ty>::size_type> &)' being compiled
+        with
+        [
+            _Ty1=int,
+            _Ty2=int,
+            _Ty=Label *
+        ]
+Scan.cpp
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\Scan.cpp(19) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+Parse.cpp
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\DsDecl.h(47) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\DsDecl.h(110) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+Main.cpp
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\DsDecl.h(47) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\DsDecl.h(110) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\Main.cpp(35) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+ByteCodeGen.cpp
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\DsDecl.h(47) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\DsDecl.h(110) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+BinGen.cpp
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\DsDecl.h(47) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\DsDecl.h(110) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\BinGen.cpp(32) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+Generating Code...
+Linking...
+LINK : LNK6004: ../BIN/Assembler.exe not found or not built by the last incremental link; performing full link
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://j:\MYProject\CMinus\CMinus(1.0)\CMinus\Assembler\Debug\BuildLog.htm"
+Assembler - 0 error(s), 18 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

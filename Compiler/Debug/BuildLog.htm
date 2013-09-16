@@ -1,0 +1,100 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=gb2312">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: Compiler, Configuration: Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Debug\RSP00000A.rsp" with contents
+[
+/Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Gm /EHsc /RTC1 /MLd /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TC
+".\SymUtil.c"
+".\Symtab.c"
+".\Scan.c"
+".\Parse.c"
+".\Main.c"
+".\Code.c"
+".\Cgen.c"
+".\Analyze.c"
+]
+Creating command line "cl.exe @"j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Debug\RSP00000A.rsp" /nologo"
+Creating temporary file "j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Debug\RSP00000B.rsp" with contents
+[
+/OUT:"../BIN/Compiler.exe" /INCREMENTAL /NOLOGO /DEBUG /PDB:"Debug/Compiler.pdb" /SUBSYSTEM:CONSOLE /MACHINE:X86  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib
+".\Debug\Analyze.obj"
+".\Debug\Cgen.obj"
+".\Debug\Code.obj"
+".\Debug\Main.obj"
+".\Debug\Parse.obj"
+".\Debug\Scan.obj"
+".\Debug\Symtab.obj"
+".\Debug\SymUtil.obj"
+]
+Creating command line "link.exe @"j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Debug\RSP00000B.rsp""
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+SymUtil.c
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\SymUtil.c(20) : warning C4013: 'strlen' undefined; assuming extern returning int
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\SymUtil.c(35) : warning C4013: 'strcmp' undefined; assuming extern returning int
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\SymUtil.c(94) : warning C4090: 'function' : different 'const' qualifiers
+Symtab.c
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Symtab.c(69) : warning C4013: 'strcmp' undefined; assuming extern returning int
+Scan.c
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Scan.c(41) : warning C4013: 'strcmp' undefined; assuming extern returning int
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Scan.c(63) : warning C4013: 'strlen' undefined; assuming extern returning int
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Scan.c(124) : warning C4013: 'strcpy' undefined; assuming extern returning int
+Parse.c
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Parse.c(68) : warning C4013: 'strdup' undefined; assuming extern returning int
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Parse.c(68) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Parse.c(152) : warning C4013: 'strcpy' undefined; assuming extern returning int
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Parse.c(187) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Parse.c(212) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Parse.c(247) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Parse.c(386) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Parse.c(643) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Parse.c(752) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Parse.c(778) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
+Main.c
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Main.c(33) : warning C4047: 'initializing' : 'char' differs in levels of indirection from 'void *'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Main.c(42) : warning C4013: 'strcpy' undefined; assuming extern returning int
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Main.c(48) : warning C4013: 'strlen' undefined; assuming extern returning int
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Main.c(56) : warning C4013: 'memcpy' undefined; assuming extern returning int
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Main.c(112) : warning C4013: 'Init_HashTable' undefined; assuming extern returning int
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Main.c(113) : warning C4013: 'BuildSymTable' undefined; assuming extern returning int
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Main.c(114) : warning C4013: 'PrintSymbTable' undefined; assuming extern returning int
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Main.c(115) : warning C4013: 'TypeCheck' undefined; assuming extern returning int
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Main.c(135) : warning C4013: 'GetSemanticErrors' undefined; assuming extern returning int
+Code.c
+Cgen.c
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Cgen.c(44) : warning C4013: 'strlen' undefined; assuming extern returning int
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Cgen.c(45) : warning C4013: 'memcpy' undefined; assuming extern returning int
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Cgen.c(281) : warning C4047: 'initializing' : 'char' differs in levels of indirection from 'void *'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Cgen.c(315) : warning C4047: '=' : 'const char *' differs in levels of indirection from 'char'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Cgen.c(341) : warning C4013: 'strdup' undefined; assuming extern returning int
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Cgen.c(341) : warning C4047: 'return' : 'char *' differs in levels of indirection from 'int'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Cgen.c(454) : warning C4013: 'strcmp' undefined; assuming extern returning int
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Cgen.c(1290) : warning C4090: 'function' : different 'const' qualifiers
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Cgen.c(1290) : warning C4090: 'function' : different 'const' qualifiers
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Cgen.c(1451) : warning C4090: 'function' : different 'const' qualifiers
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Cgen.c(1603) : warning C4311: 'type cast' : pointer truncation from 'const char *' to 'int'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Cgen.c(1605) : warning C4311: 'type cast' : pointer truncation from 'const char *' to 'int'
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Cgen.c(1680) : warning C4090: 'function' : different 'const' qualifiers
+Analyze.c
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Analyze.c(19) : warning C4101: 'funRetType' : unreferenced local variable
+j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Analyze.c(90) : warning C4013: 'strcmp' undefined; assuming extern returning int
+Generating Code...
+Linking...
+LINK : LNK6004: ../BIN/Compiler.exe not found or not built by the last incremental link; performing full link
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://j:\MYProject\CMinus\CMinus(1.0)\CMinus\Compiler\Debug\BuildLog.htm"
+Compiler - 0 error(s), 41 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>
