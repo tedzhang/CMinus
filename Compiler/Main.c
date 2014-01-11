@@ -64,8 +64,9 @@ static BOOL ParseCmd(int argc,char *argv[],char* srcfilename,char* dstfilename,i
 
 static void ShowCopyInfo()
 {
-	printf("Minus -c Compiler v0.1\n");
+	printf("Minus -c Compiler v0.2\n");
 	printf("Copyright Pointer(YongZhang81@gmail.com)\n");
+	printf("For any issues please contact the email\n");
 
 }
 
